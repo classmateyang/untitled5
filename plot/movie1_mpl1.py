@@ -37,32 +37,5 @@ for s in s_values:
     #plt.savefig('tmp_%04d.png' % counter)
     counter += 1
 raw_input('Type Return key: ')
-'''
-1
-2
-3
-4
-sdfs
-sdfsd
-dfsdfsd
-sdfsdf
-sdf
-super(s, self).s(s)
 
-
-:returnss
-
-
-:returns
-
-s
-
-
-ewer
-5
-sdfsdfs
-
-sdfs
-6
-'''
 
