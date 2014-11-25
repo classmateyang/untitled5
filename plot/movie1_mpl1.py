@@ -18,7 +18,7 @@ s_values = np.linspace(s_max, s_min, 30)
 max_f = f(m, m, s_min)
 
 # Make a first plot (here empty)
-plt.ion()
+plt.ion()# turn on interactive mode
 y = f(x, m, s_max)
 lines = plt.plot(x, y)
 plt.axis([x[0], x[-1], -0.1, max_f])
