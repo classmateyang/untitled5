@@ -44,6 +44,18 @@ raw_input('Type Return key: ')
 4
 sdfs
 sdfsd
+dfsdfsd
+sdfsdf
+sdf
+super(s, self).s(s)
+
+
+:returnss
+
+
+:returns
+
+s
 
 
 ewer
