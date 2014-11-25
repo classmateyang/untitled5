@@ -37,4 +37,9 @@ for s in s_values:
     #plt.savefig('tmp_%04d.png' % counter)
     counter += 1
 raw_input('Type Return key: ')
+'''
+1
+2
+3
+'''
 
