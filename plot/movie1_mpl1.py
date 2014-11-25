@@ -19,6 +19,7 @@ max_f = f(m, m, s_min)
 
 # Make a first plot (here empty)
 plt.ion()# turn on interactive mode
+
 y = f(x, m, s_max)
 lines = plt.plot(x, y)
 plt.axis([x[0], x[-1], -0.1, max_f])
@@ -32,7 +33,7 @@ for s in s_values:
     y = f(x, m, s)
     lines[0].set_ydata(y)
     plt.legend(['s=%4.2f' % s])
-    plt.draw()
+    plt.draw()#use the draw() to update graph in an interactive mode
     #plt.savefig('tmp_%04d.png' % counter)
     counter += 1
 raw_input('Type Return key: ')
