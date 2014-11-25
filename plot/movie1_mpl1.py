@@ -33,7 +33,7 @@ for s in s_values:
     lines[0].set_ydata(y)
     plt.legend(['s=%4.2f' % s])
     plt.draw()
-    plt.savefig('tmp_%04d.png' % counter)
+    #plt.savefig('tmp_%04d.png' % counter)
     counter += 1
 raw_input('Type Return key: ')
 
