@@ -49,7 +49,7 @@ def Nv2(x):
 funcs = [N_loop, N_vec, Nv1, Nv2]
 n = 1000000
 x = np.linspace(-2, 4, n+1)
-selected_index = n/2
+selected_index = n
 import time
 timings = {}
 testvalues = {}
@@ -61,8 +61,9 @@ for func in funcs:
     testvalues[name] = r[selected_index]
     timings[name] = t1 - t0
 
-from scitools.misc import hardware_info
-import pprint; pprint.pprint(hardware_info())
+#from scitools.misc import hardware_info
+import pprint
+#pprint.pprint(hardware_info())
 pprint.pprint(timings)
 
 # Test that the results are correct
