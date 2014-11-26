@@ -32,5 +32,4 @@ def Nv2(x):
 x=np.linspace(-10,10,40)
 
 print Nv(x)
-
 print Nv2(x)
