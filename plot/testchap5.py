@@ -16,6 +16,7 @@ def Nv(x):
 	return r
 #using boolen indexing to vectorize
 
+
 def Nv2(x):
 	cond1=x < 0
 	cond2=np.logical_and(0 <= x, x < 1)
